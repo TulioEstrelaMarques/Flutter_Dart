@@ -13,21 +13,26 @@ void main() {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    "+1",
-                    style: TextStyle(color: Colors.white, fontSize: 40.0),
-                  )),
-              TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    "-1",
-                    style: TextStyle(color: Colors.white, fontSize: 40.0),
-                  )),
+              Padding(
+                padding: EdgeInsets.all(10.0),
+                child: TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      "+1",
+                      style: TextStyle(color: Colors.white, fontSize: 40.0),
+                    )),
+              ),
+              Padding(
+                padding: EdgeInsets.all(10.0),
+                child: TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      "-1",
+                      style: TextStyle(color: Colors.white, fontSize: 40.0),
+                    )),
+              ),
             ],
           ),
-
           Text(
             "Pode Entrar!",
             style: TextStyle(
